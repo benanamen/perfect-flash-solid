@@ -1,6 +1,6 @@
 {
-  "name": "krubio/perfect-flash",
-  "description": "Session Based Flash Messaging - Bootstrap 5",
+  "name": "krubio/perfect-flash-solid",
+  "description": "SOLID Compliant Session Based Flash Messaging - Bootstrap 5",
   "keywords": [
     "Flash",
     "Flash Message",
