@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25eb47efd6018176428010efe5a5fc1d",
+    "content-hash": "c2580371a3274e810a0ab70a00e3b61a",
     "packages": [
         {
             "name": "krubio/perfect-session",
