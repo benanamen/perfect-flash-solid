@@ -10,6 +10,8 @@ use PHPUnit\Framework\TestCase;
 
 final class FlashMessageTest extends TestCase
 {
+    private FlashMessage $flashMessage;
+
     private array $config = [
         'primary' => [
             'created' => 'Item created successfully'
@@ -37,13 +39,11 @@ final class FlashMessageTest extends TestCase
         ]
     ];
 
-    private Session $session;
-
     protected function setUp(): void
     {
         parent::setUp();
-        $this->session = new Session();
-        $this->flashMessage = new FlashMessage($this->session, $this->config);
+        $session = new Session();
+        $this->flashMessage = new FlashMessage($session, $this->config);
     }
 
     public function testConstructor(): void
