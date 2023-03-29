@@ -35,7 +35,9 @@ jobs:
 
         with:
           projectBaseDir: ./
-          reportPaths: tests/_output/coverage.xml, tests/_output/coverage-phpunit/index.xml
+          report-file: './tests/_output/coverage.xml'
+          extra-properties: |
+              sonar.php.coverage.reportPaths=tests/_output/coverage.xml
           verbose: true
 
         env:
