@@ -34,7 +34,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
 
         with:
-          files: tests/_output/coverage.xml, tests/_output/coverage-phpunit/index.xml
+          projectBaseDir: ./
+          reportPaths: tests/_output/coverage.xml, tests/_output/coverage-phpunit/index.xml
           verbose: true
 
         env:
