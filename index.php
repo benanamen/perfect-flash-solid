@@ -42,4 +42,3 @@ $flash->set('danger', 'deleted', '<i class="bi bi-exclamation-triangle-fill"></i
 </div>
 </body>
 </html>
-
