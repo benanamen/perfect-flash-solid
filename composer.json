@@ -18,13 +18,14 @@
   ],
   "require": {
     "php": ">=8.0.0",
-    "krubio/perfect-session": "dev-master"
+    "krubio/perfect-session": "^0.1.0"
   },
   "require-dev": {
     "codeception/codeception": "^5.0",
     "codeception/module-asserts": "*",
     "jaschilz/php-coverage-badger": "^2.0",
-    "phpstan/phpstan": "^1.10"
+    "phpstan/phpstan": "^1.10",
+    "mockery/mockery": "^1.5"
   },
   "scripts": {
     "test": [
